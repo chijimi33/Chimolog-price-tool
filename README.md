@@ -71,7 +71,7 @@ The JSON URL for ChatGPT Tasks will be:
 https://raw.githubusercontent.com/chijimi33/Chimolog-price-tool/main/public/chimolog_products.json
 ```
 
-After pushing this repository to GitHub, run `Update Chimolog product data` once manually from the GitHub Actions tab.
+After pushing this repository to GitHub, run `Update Chimolog product data` once manually from the GitHub Actions tab if the first push-triggered run has not generated the files yet.
 
 If the workflow cannot push generated files, open:
 
