@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-07-07T15:13:30.886429+00:00",
+  "fetched_at": "2026-07-07T20:13:28.536294+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/07/08 00:06",
+    "updated_at": "2026/07/08 05:11",
     "show_points": true,
-    "total": 313,
+    "total": 322,
     "discount_count": 125,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 313,
+  "count": 322,
   "discount_count": 125,
   "items": [
     {
@@ -99,7 +99,7 @@
     {
       "asin": "B000WMHMKC",
       "title": "パナソニック ザタップX (4口 / 2m)",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "better"
       ],
@@ -398,7 +398,7 @@
     {
       "asin": "B00Y1U6JAU",
       "title": "パナソニック 情報ラック用連結電源コンセント (8口 / 3m) ※PCやWiFiルーター周りに",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "better"
       ],
@@ -482,7 +482,7 @@
     {
       "asin": "B01N6MF654",
       "title": "StarTech USBハブ （USB 2.0） ※信頼性重視",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "better"
       ],
@@ -1684,6 +1684,52 @@
       "image_url": "https://m.media-amazon.com/images/I/41sWE9krQcL._SL500_.jpg"
     },
     {
+      "asin": "B0BLN49LV1",
+      "title": "QNAP TS-264 (2ベイ / 2.5G LAN)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 94800,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 5688,
+      "points_rate_percent": 6.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4wvxTLM",
+      "affiliate_url": "https://amzn.to/4wvxTLM",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31CVk8eDNOL._SL500_.jpg"
+    },
+    {
+      "asin": "B0BP97WV3R",
+      "title": "QNAP TS-464-8G (4ベイ / 2.5G LAN)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 119800,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 7188,
+      "points_rate_percent": 6.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/44P9Uey",
+      "affiliate_url": "https://amzn.to/44P9Uey",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31PzBzBEH2L._SL500_.jpg"
+    },
+    {
       "asin": "B0BQH67MVT",
       "title": "ASUS TUF GAMING B760-PLUS (LGA1700 / DDR4)",
       "category": "PCパーツ",
@@ -2879,7 +2925,7 @@
     {
       "asin": "B0D1VMZQY4",
       "title": "UGREEN USB-C （240W急速充電ケーブル / 50cm）",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "good"
       ],
@@ -2898,6 +2944,52 @@
       "affiliate_url": "https://amzn.to/3QU3jwg",
       "review_url": null,
       "image_url": "https://m.media-amazon.com/images/I/41WA0s86cGL._SL500_.jpg"
+    },
+    {
+      "asin": "B0D3GDKGBL",
+      "title": "TP-Link DS105X (10G x5ポート)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 28815,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 1152,
+      "points_rate_percent": 4.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4aHg7gh",
+      "affiliate_url": "https://amzn.to/4aHg7gh",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31N93XkCxzL._SL500_.jpg"
+    },
+    {
+      "asin": "B0D3GGV9K8",
+      "title": "TP-Link DS1008X (10G x8ポート)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 39015,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 1560,
+      "points_rate_percent": 4.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4yfwU4e",
+      "affiliate_url": "https://amzn.to/4yfwU4e",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/21es8vS-45L._SL500_.jpg"
     },
     {
       "asin": "B0D3ZXHSKN",
@@ -3577,6 +3669,75 @@
       "image_url": "https://m.media-amazon.com/images/I/41cdTfC-AQL._SL500_.jpg"
     },
     {
+      "asin": "B0DM8PTZS1",
+      "title": "ASUS RT-BE92U (Wi-Fi 7 / 6 GHz / 10G WAN)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 32545,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 1301,
+      "points_rate_percent": 4.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4aHg1VX",
+      "affiliate_url": "https://amzn.to/4aHg1VX",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/41CJ+lOVcwL._SL500_.jpg"
+    },
+    {
+      "asin": "B0DMWSXRV1",
+      "title": "Xiaomi 165W Power Bank 10000 (最大165W)",
+      "category": "ガジェット",
+      "themes": [
+        "good"
+      ],
+      "theme_labels": [
+        "おすすめ代替"
+      ],
+      "price_yen": 3880,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 116,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4p68fuy",
+      "affiliate_url": "https://amzn.to/4p68fuy",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/21iyaSLms0L._SL500_.jpg"
+    },
+    {
+      "asin": "B0DMZWNFLB",
+      "title": "Planex FX2G-05EM2 (2.5G x5ポート)",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 7100,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 213,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://www.amazon.co.jp/dp/B0DMZWNFLB?tag=chimologaff7-22&linkCode=ogi&th=1&psc=1",
+      "affiliate_url": "https://www.amazon.co.jp/dp/B0DMZWNFLB?tag=chimologaff7-22&linkCode=ogi&th=1&psc=1",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/216n2m4ZsWL._SL500_.jpg"
+    },
+    {
       "asin": "B0DNRWQZFP",
       "title": "ASUS PROART Z890-CREATOR (LGA1851 / DDR5 / Gen5 x8+x8)",
       "category": "PCパーツ",
@@ -3604,7 +3765,7 @@
     {
       "asin": "B0DNSTHRGQ",
       "title": "UGREEN 5G LANアダプター（Type C）",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "good"
       ],
@@ -4532,7 +4693,7 @@
     {
       "asin": "B0DYTVVLH4",
       "title": "UGREEN Revodok Pro 314 USBドッキングステーション",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "good"
       ],
@@ -4952,7 +5113,7 @@
     {
       "asin": "B0F4MRP14J",
       "title": "USB-C オスメスL字型 （USB4 40Gbps / PD 240W / 13cm） ※地味に便利",
-      "category": "日用品",
+      "category": "ガジェット",
       "themes": [
         "good"
       ],
@@ -6020,6 +6181,29 @@
       "image_url": "https://m.media-amazon.com/images/I/41GOA96JdAL._SL500_.jpg"
     },
     {
+      "asin": "B0FS16PPPR",
+      "title": "ASUS GS-BE7200X (Wi-Fi 7 / 5GHz / 10G WAN)",
+      "category": "ガジェット",
+      "themes": [
+        "good"
+      ],
+      "theme_labels": [
+        "おすすめ代替"
+      ],
+      "price_yen": 27818,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 1112,
+      "points_rate_percent": 4.0,
+      "fetched_at": "2026/07/08 05:10",
+      "product_url": "https://amzn.to/4yrMUjJ",
+      "affiliate_url": "https://amzn.to/4yrMUjJ",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31p9TlHH1UL._SL500_.jpg"
+    },
+    {
       "asin": "B0FSL8FV2J",
       "title": "HAVN H18 180mm x 40mm厚ファン (2個入り)",
       "category": "PCパーツ",
@@ -6591,6 +6775,29 @@
       "affiliate_url": "https://amzn.to/4vNrA6t",
       "review_url": "https://chimolog.co/asrock-pg-1000psf/",
       "image_url": "https://m.media-amazon.com/images/I/41VVnNlm-zL._SL500_.jpg"
+    },
+    {
+      "asin": "B0GFMB15H9",
+      "title": "10G LANカード（Realtek RTL8127搭載）",
+      "category": "ガジェット",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 7799,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 233,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/07/08 05:11",
+      "product_url": "https://amzn.to/4vjd0Cv",
+      "affiliate_url": "https://amzn.to/4vjd0Cv",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31rDx-zMcyL._SL500_.jpg"
     },
     {
       "asin": "B0GH73FK47",
