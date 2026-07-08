@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-07-08T03:42:45.920129+00:00",
+  "fetched_at": "2026-07-08T08:43:32.526457+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/07/08 12:06",
+    "updated_at": "2026/07/08 14:48",
     "show_points": true,
-    "total": 328,
+    "total": 329,
     "discount_count": 126,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 328,
+  "count": 329,
   "discount_count": 126,
   "items": [
     {
@@ -1032,6 +1032,29 @@
       "affiliate_url": "https://www.amazon.co.jp/%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF-%E6%9B%BF%E3%81%88%E3%83%96%E3%83%A9%E3%82%B7-%E6%A5%B5%E7%B4%B0%E6%AF%9B%E3%83%96%E3%83%A9%E3%82%B7-%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88-EW0800-K/dp/B08G8GPM2X?pd_rd_w=P0MCf&content-id=amzn1.sym.78c86660-eb2d-4aa9-9686-743a81649d78&pf_rd_p=78c86660-eb2d-4aa9-9686-743a81649d78&pf_rd_r=B955VQZQW2PKH3CHS4R8&pd_rd_wg=3mhDW&pd_rd_r=d80e1bde-9b31-4084-b096-f67e83a336ce&pd_rd_i=B08G8GPM2X&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=338e08b5440eaca1ad12d1c267d7f782&ref_=as_li_ss_tl",
       "review_url": null,
       "image_url": "https://m.media-amazon.com/images/I/213oJH8bPOL._SL500_.jpg"
+    },
+    {
+      "asin": "B08HCKKVL3",
+      "title": "ASUS ROG STRIX B550-A GAMING (AM4 / DDR4)",
+      "category": "PCパーツ",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 16878,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 674,
+      "points_rate_percent": 4.0,
+      "fetched_at": "2026/07/08 14:48",
+      "product_url": "https://amzn.to/4h0lJ91",
+      "affiliate_url": "https://amzn.to/4h0lJ91",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/41Ib306zjkL._SL500_.jpg"
     },
     {
       "asin": "B08HNFV61M",
