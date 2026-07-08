@@ -1,13 +1,13 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-07-08T08:43:32.526457+00:00",
+  "fetched_at": "2026-07-08T14:39:51.943259+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/07/08 14:48",
+    "updated_at": "2026/07/08 20:15",
     "show_points": true,
     "total": 329,
-    "discount_count": 126,
+    "discount_count": 127,
     "themes": [
       {
         "theme": "best",
@@ -48,7 +48,7 @@
     ]
   },
   "count": 329,
-  "discount_count": 126,
+  "discount_count": 127,
   "items": [
     {
       "asin": "4003220625",
@@ -6132,22 +6132,22 @@
     },
     {
       "asin": "B0FNM457WX",
-      "title": "ASUS DUAL RX 9060 XT O16G",
+      "title": "ASUS DUAL RX 9060 XT O16G ※-10000円クーポンあり",
       "category": "グラボ",
       "themes": [
-        "good"
+        "better"
       ],
       "theme_labels": [
-        "おすすめ代替"
+        "かなりおすすめ"
       ],
-      "price_yen": 65039,
-      "reference_high_yen": null,
-      "discount_amount_yen": null,
-      "discount_rate_percent": null,
-      "is_discounted": false,
-      "points_total": 3902,
+      "price_yen": 59394,
+      "reference_high_yen": 65039,
+      "discount_amount_yen": 5645,
+      "discount_rate_percent": 8.7,
+      "is_discounted": true,
+      "points_total": 3562,
       "points_rate_percent": 6.0,
-      "fetched_at": "2026/07/08 12:06",
+      "fetched_at": "2026/07/08 20:03",
       "product_url": "https://www.amazon.co.jp/ASUS-Radeon-GDDR6%E3%83%93%E3%83%87%E3%82%AA%E3%82%AB%E3%83%BC%E3%83%89-DUAL-RX9060XT-16G-%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81/dp/B0FNM457WX?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1RRNNCT60GDD2&dib=eyJ2IjoiMSJ9.5Q7g2hw8Hjyhnk-s5NhDKkq334jbXQyw98TABtK3ZOtaOFCEgIXjJK43Iq69fMX1gCJ1Br-MFtF4c2t6buwu3X8qCbzVcMrWFI0iAjQra0Nm-DC2MdxxmYUUmSbQvzGHidhRBlW_nwyU1vGBMlrsaqyLlS_hf6wR1EnM5cYixNv3ZCRYjAV3hd-TJx3vj4MF4BJbqo5K2Xq-g2Nc6BZgaZrxnhk6WLwhXiZxrs1SFXrrTe6Pla_wOa_QEBmG4okamxsWlGimOcsHG7sv4T0njAvw52yDripIlfQ1K66vRmY.pnrSMtSRZlLs08KMw6ldoxawuQoWKFfmtLKZutfKErc&dib_tag=se&keywords=9060XT&qid=1782138132&sprefix=9060xt%2Caps%2C248&sr=8-5&ufe=app_do%3Aamzn1.fos.bf59e452-7c16-4eb0-8b6f-4f4edb3d8c50&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ee066cb84678426223202bd9f36959b0&ref_=as_li_ss_tl",
       "affiliate_url": "https://www.amazon.co.jp/ASUS-Radeon-GDDR6%E3%83%93%E3%83%87%E3%82%AA%E3%82%AB%E3%83%BC%E3%83%89-DUAL-RX9060XT-16G-%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81/dp/B0FNM457WX?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1RRNNCT60GDD2&dib=eyJ2IjoiMSJ9.5Q7g2hw8Hjyhnk-s5NhDKkq334jbXQyw98TABtK3ZOtaOFCEgIXjJK43Iq69fMX1gCJ1Br-MFtF4c2t6buwu3X8qCbzVcMrWFI0iAjQra0Nm-DC2MdxxmYUUmSbQvzGHidhRBlW_nwyU1vGBMlrsaqyLlS_hf6wR1EnM5cYixNv3ZCRYjAV3hd-TJx3vj4MF4BJbqo5K2Xq-g2Nc6BZgaZrxnhk6WLwhXiZxrs1SFXrrTe6Pla_wOa_QEBmG4okamxsWlGimOcsHG7sv4T0njAvw52yDripIlfQ1K66vRmY.pnrSMtSRZlLs08KMw6ldoxawuQoWKFfmtLKZutfKErc&dib_tag=se&keywords=9060XT&qid=1782138132&sprefix=9060xt%2Caps%2C248&sr=8-5&ufe=app_do%3Aamzn1.fos.bf59e452-7c16-4eb0-8b6f-4f4edb3d8c50&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ee066cb84678426223202bd9f36959b0&ref_=as_li_ss_tl",
       "review_url": "https://chimolog.co/rx-9060-xt-16gb/#perf",
@@ -6954,7 +6954,7 @@
       "is_discounted": false,
       "points_total": 233,
       "points_rate_percent": 3.0,
-      "fetched_at": "2026/07/08 12:06",
+      "fetched_at": "2026/07/08 20:15",
       "product_url": "https://amzn.to/4vjd0Cv",
       "affiliate_url": "https://amzn.to/4vjd0Cv",
       "review_url": null,
