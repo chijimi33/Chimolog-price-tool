@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-07-09T15:32:32.250040+00:00",
+  "fetched_at": "2026-07-09T20:02:59.394517+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/07/10 00:06",
+    "updated_at": "2026/07/10 02:17",
     "show_points": true,
-    "total": 329,
+    "total": 332,
     "discount_count": 141,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 329,
+  "count": 332,
   "discount_count": 141,
   "items": [
     {
@@ -304,6 +304,29 @@
       "image_url": "https://m.media-amazon.com/images/I/31-EHAj8TtL._SL500_.jpg"
     },
     {
+      "asin": "B007W9DMGQ",
+      "title": "ニチガ 大豆プロテイン (1kg×5袋) ※タンパク質パンケーキにおすすめ",
+      "category": "日用品",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 9486,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 284,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/07/10 02:16",
+      "product_url": "https://amzn.to/4pbY9Zb",
+      "affiliate_url": "https://amzn.to/4pbY9Zb",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/51HTN+lwirL._SL500_.jpg"
+    },
+    {
       "asin": "B00940JW9M",
       "title": "フィスラー ステンレスフライパン （24cm） ※テフロン剥げを気にせず圧倒的高火力",
       "category": "日用品",
@@ -325,6 +348,29 @@
       "affiliate_url": "https://amzn.to/3T25azD",
       "review_url": null,
       "image_url": "https://m.media-amazon.com/images/I/21Y1ZP147XL._SL500_.jpg"
+    },
+    {
+      "asin": "B00AY6KTPQ",
+      "title": "ニチガ 大豆プロテイン (1kg) ※タンパク質パンケーキにおすすめ",
+      "category": "日用品",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 2364,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 70,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/07/10 02:17",
+      "product_url": "https://amzn.to/3R7Va7w",
+      "affiliate_url": "https://amzn.to/3R7Va7w",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/51Or1kfwJTL._SL500_.jpg"
     },
     {
       "asin": "B00EETBVAG",
@@ -4478,6 +4524,31 @@
       "image_url": "https://m.media-amazon.com/images/I/419CC+U9x2L._SL500_.jpg"
     },
     {
+      "asin": "B0DTYJQQD2",
+      "title": "ASUS RTX5080 PRIME-RTX5080-O16G",
+      "category": "グラボ",
+      "themes": [
+        "better",
+        "500k"
+      ],
+      "theme_labels": [
+        "かなりおすすめ",
+        "予算50万"
+      ],
+      "price_yen": 193414,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 11604,
+      "points_rate_percent": 6.0,
+      "fetched_at": "2026/07/10 01:10",
+      "product_url": "https://amzn.to/4vop8lN",
+      "affiliate_url": "https://amzn.to/4vop8lN",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31Hbq2GeSoL._SL500_.jpg"
+    },
+    {
       "asin": "B0DV9BSDSM",
       "title": "ASUS ROG ASTRAL RTX 5090 O32G GAMING",
       "category": "グラボ",
@@ -4716,12 +4787,10 @@
       "title": "PNY RTX 5070 Ti 16GB Overclocked TripleFan",
       "category": "グラボ",
       "themes": [
-        "best",
-        "500k"
+        "best"
       ],
       "theme_labels": [
-        "特におすすめ★5",
-        "予算50万"
+        "特におすすめ★5"
       ],
       "price_yen": 158000,
       "reference_high_yen": 171856,
@@ -6132,7 +6201,7 @@
     },
     {
       "asin": "B0FNM457WX",
-      "title": "ASUS DUAL RX 9060 XT O16G ※-10000円クーポンあり",
+      "title": "ASUS DUAL RX 9060 XT O16G",
       "category": "グラボ",
       "themes": [
         "better"
