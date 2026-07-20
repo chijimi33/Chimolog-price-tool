@@ -1,7 +1,27 @@
 import json
 import unittest
+import urllib.error
+from unittest import mock
 
-from chimolog_price_tool import get_chimolog_prices, render_csv
+from chimolog_price_tool import fetch_text, get_chimolog_prices, render_csv
+
+
+class FakeResponse:
+    def __init__(self, body):
+        self.body = body
+        self.headers = self
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc, traceback):
+        return False
+
+    def get_content_charset(self):
+        return "utf-8"
+
+    def read(self):
+        return self.body.encode("utf-8")
 
 
 class ChimologPriceToolTest(unittest.TestCase):
@@ -96,6 +116,19 @@ class ChimologPriceToolTest(unittest.TestCase):
 
         self.assertIn("theme_codes,theme_labels", csv_text)
         self.assertIn("best; ai,特におすすめ★5; ローカルAI", csv_text)
+
+    def test_fetch_text_retries_transient_errors(self):
+        with mock.patch(
+            "urllib.request.urlopen",
+            side_effect=[
+                urllib.error.URLError("timed out"),
+                FakeResponse('{"ok": true}'),
+            ],
+        ) as urlopen:
+            text = fetch_text("https://example.test/data.json", retries=2, retry_delay=0)
+
+        self.assertEqual(text, '{"ok": true}')
+        self.assertEqual(urlopen.call_count, 2)
 
 
 if __name__ == "__main__":

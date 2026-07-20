@@ -11,6 +11,7 @@ import json
 import os
 import ssl
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -19,7 +20,9 @@ from typing import Any
 
 DEFAULT_PAGE_URL = "https://chimolog.co/wp-content/price/"
 DEFAULT_DATA_URL = "https://chimolog.co/wp-content/price/data/products.json"
-DEFAULT_TIMEOUT = 20.0
+DEFAULT_TIMEOUT = 30.0
+DEFAULT_RETRIES = 3
+DEFAULT_RETRY_DELAY = 5.0
 COMMON_CA_BUNDLES = [
     "/etc/ssl/cert.pem",
     "/opt/homebrew/etc/openssl@3/cert.pem",
@@ -57,6 +60,8 @@ def fetch_text(
     url: str,
     *,
     timeout: float = DEFAULT_TIMEOUT,
+    retries: int = DEFAULT_RETRIES,
+    retry_delay: float = DEFAULT_RETRY_DELAY,
     headers: dict[str, str] | None = None,
     cafile: str | None = None,
     insecure_tls: bool = False,
@@ -69,14 +74,31 @@ def fetch_text(
     if headers:
         request_headers.update(headers)
 
-    request = urllib.request.Request(url, headers=request_headers)
-    urlopen_kwargs: dict[str, Any] = {"timeout": timeout}
-    if urllib.parse.urlparse(url).scheme == "https":
-        urlopen_kwargs["context"] = make_ssl_context(cafile=cafile, insecure_tls=insecure_tls)
+    attempts = max(1, retries)
+    last_error: BaseException | None = None
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(url, headers=request_headers)
+        urlopen_kwargs: dict[str, Any] = {"timeout": timeout}
+        if urllib.parse.urlparse(url).scheme == "https":
+            urlopen_kwargs["context"] = make_ssl_context(cafile=cafile, insecure_tls=insecure_tls)
 
-    with urllib.request.urlopen(request, **urlopen_kwargs) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace")
+        try:
+            with urllib.request.urlopen(request, **urlopen_kwargs) as response:
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset, errors="replace")
+        except urllib.error.HTTPError as exc:
+            if exc.code < 500 and exc.code != 429:
+                raise
+            last_error = exc
+        except (OSError, TimeoutError, urllib.error.URLError) as exc:
+            last_error = exc
+
+        if attempt < attempts:
+            time.sleep(retry_delay * attempt)
+
+    if last_error:
+        raise last_error
+    raise RuntimeError(f"Failed to fetch {url}")
 
 
 def make_ssl_context(*, cafile: str | None = None, insecure_tls: bool = False) -> ssl.SSLContext:
@@ -106,6 +128,8 @@ def get_chimolog_prices(
     *,
     page_url: str = DEFAULT_PAGE_URL,
     timeout: float = DEFAULT_TIMEOUT,
+    retries: int = DEFAULT_RETRIES,
+    retry_delay: float = DEFAULT_RETRY_DELAY,
     json_text: str | None = None,
     cafile: str | None = None,
     insecure_tls: bool = False,
@@ -116,6 +140,8 @@ def get_chimolog_prices(
         json_text = fetch_text(
             data_url,
             timeout=timeout,
+            retries=retries,
+            retry_delay=retry_delay,
             cafile=cafile,
             insecure_tls=insecure_tls,
         )
@@ -311,6 +337,8 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--json-file", help="Read products JSON from a local file instead of fetching it")
     parser.add_argument("--page-url", default=DEFAULT_PAGE_URL, help="Human-facing Chimolog price page URL")
     parser.add_argument("--timeout", type=float, default=DEFAULT_TIMEOUT, help="HTTP timeout in seconds")
+    parser.add_argument("--retries", type=int, default=DEFAULT_RETRIES, help="Number of HTTP attempts")
+    parser.add_argument("--retry-delay", type=float, default=DEFAULT_RETRY_DELAY, help="Base retry delay in seconds")
     parser.add_argument("--cafile", help="CA bundle path for TLS verification")
     parser.add_argument(
         "--insecure-tls",
@@ -344,6 +372,8 @@ def main(argv: list[str] | None = None) -> int:
             args.url,
             page_url=args.page_url,
             timeout=args.timeout,
+            retries=args.retries,
+            retry_delay=args.retry_delay,
             json_text=json_text,
             cafile=args.cafile,
             insecure_tls=args.insecure_tls,

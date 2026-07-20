@@ -7,6 +7,7 @@ import argparse
 import html
 import json
 import sys
+import urllib.error
 from pathlib import Path
 from typing import Any
 
@@ -20,7 +21,10 @@ from chimolog_price_tool import get_chimolog_prices, render_csv
 def build_public_data(output_dir: Path) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    result = get_chimolog_prices()
+    try:
+        result = get_chimolog_prices()
+    except (OSError, TimeoutError, urllib.error.URLError, json.JSONDecodeError, ValueError) as exc:
+        result = load_previous_result(output_dir / "chimolog_products.json", exc)
 
     (output_dir / "chimolog_products.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n",
@@ -34,6 +38,26 @@ def build_public_data(output_dir: Path) -> dict[str, Any]:
     (output_dir / "index.html").write_text(render_index(result), encoding="utf-8")
     (output_dir / ".nojekyll").write_text("", encoding="utf-8")
 
+    return result
+
+
+def load_previous_result(json_path: Path, error: BaseException) -> dict[str, Any]:
+    if not json_path.exists():
+        raise RuntimeError(
+            f"Live Chimolog fetch failed and no previous data exists at {json_path}: {error}"
+        ) from error
+
+    result = json.loads(json_path.read_text(encoding="utf-8"))
+    items = result.get("items") if isinstance(result, dict) else None
+    if not isinstance(items, list) or not items:
+        raise RuntimeError(
+            f"Live Chimolog fetch failed and previous data is invalid at {json_path}: {error}"
+        ) from error
+
+    print(
+        f"warning: live Chimolog fetch failed ({error}); reusing previous data from {json_path}",
+        file=sys.stderr,
+    )
     return result
 
 
