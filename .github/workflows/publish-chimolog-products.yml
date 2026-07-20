@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "public/**"
   schedule:
     - cron: "17 */6 * * *"
 
