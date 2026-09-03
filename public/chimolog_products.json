@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-09-03T04:20:44.368563+00:00",
+  "fetched_at": "2026-09-03T11:10:55.961629+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/09/03 12:06",
+    "updated_at": "2026/09/03 17:38",
     "show_points": true,
-    "total": 368,
+    "total": 369,
     "discount_count": 74,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 368,
+  "count": 369,
   "discount_count": 74,
   "items": [
     {
@@ -4874,6 +4874,29 @@
       "affiliate_url": "https://amzn.to/3QUOEks",
       "review_url": "https://chimolog.co/rtx-5090/#perf",
       "image_url": "https://m.media-amazon.com/images/I/41QCaTvoRaL._SL500_.jpg"
+    },
+    {
+      "asin": "B0DT9PQBQT",
+      "title": "オカモト マリーゴールドハピネス (Mサイズ / 1セット)",
+      "category": "日用品",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 294,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 7,
+      "points_rate_percent": 2.4,
+      "fetched_at": "2026/09/03 17:38",
+      "product_url": "https://www.amazon.co.jp/%E3%82%AA%E3%82%AB%E3%83%A2%E3%83%88-%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9-M%E3%82%B5%E3%82%A4%E3%82%BA-1%E5%8F%8C/dp/B0DT9PQBQT?_encoding=UTF8&dd=wRvl0fZqZyZwUqKVLRZth9NGzeC2M1AGI-JCm90QnS4%2C&ddc_refnmnt=free&pd_rd_i=B0DT9PQBQT&pd_rd_w=z07uH&content-id=amzn1.sym.a4951cbe-4387-43af-9d6e-e5340c95dd3e&pf_rd_p=a4951cbe-4387-43af-9d6e-e5340c95dd3e&pf_rd_r=MYCJPB28V04VHRCAY36S&pd_rd_wg=Zh7WJ&pd_rd_r=2651f7b8-e6a5-40f9-b870-826b58204ab2&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ea8424bd4fc202edff2d7f12e6c09680&ref_=as_li_ss_tl",
+      "affiliate_url": "https://www.amazon.co.jp/%E3%82%AA%E3%82%AB%E3%83%A2%E3%83%88-%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9-M%E3%82%B5%E3%82%A4%E3%82%BA-1%E5%8F%8C/dp/B0DT9PQBQT?_encoding=UTF8&dd=wRvl0fZqZyZwUqKVLRZth9NGzeC2M1AGI-JCm90QnS4%2C&ddc_refnmnt=free&pd_rd_i=B0DT9PQBQT&pd_rd_w=z07uH&content-id=amzn1.sym.a4951cbe-4387-43af-9d6e-e5340c95dd3e&pf_rd_p=a4951cbe-4387-43af-9d6e-e5340c95dd3e&pf_rd_r=MYCJPB28V04VHRCAY36S&pd_rd_wg=Zh7WJ&pd_rd_r=2651f7b8-e6a5-40f9-b870-826b58204ab2&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ea8424bd4fc202edff2d7f12e6c09680&ref_=as_li_ss_tl",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/41xRp6+SSyL._SL500_.jpg"
     },
     {
       "asin": "B0DTKFNTWT",
