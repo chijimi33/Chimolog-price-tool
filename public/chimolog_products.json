@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-09-18T04:40:23.570867+00:00",
+  "fetched_at": "2026-09-18T11:10:50.463100+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/09/18 12:06",
+    "updated_at": "2026/09/18 17:29",
     "show_points": true,
-    "total": 369,
+    "total": 370,
     "discount_count": 88,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 369,
+  "count": 370,
   "discount_count": 88,
   "items": [
     {
@@ -8582,6 +8582,29 @@
       "affiliate_url": "https://amzn.to/4wQVTtx",
       "review_url": "https://chimolog.co/innocn-49q1r/",
       "image_url": "https://m.media-amazon.com/images/I/41hWfipzUZL._SL500_.jpg"
+    },
+    {
+      "asin": "B0H9YLKT45",
+      "title": "INNOCN E49M1R （DWQHD / 165 Hz / VA MiniLED）",
+      "category": "モニター",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 159999,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 4798,
+      "points_rate_percent": 3.0,
+      "fetched_at": "2026/09/18 17:29",
+      "product_url": "https://amzn.to/4xxWuQ6",
+      "affiliate_url": "https://amzn.to/4xxWuQ6",
+      "review_url": "https://chimolog.co/innocn-e49m1r/",
+      "image_url": "https://m.media-amazon.com/images/I/41XMnAbwRiL._SL500_.jpg"
     }
   ]
 }
