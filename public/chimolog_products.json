@@ -1,12 +1,12 @@
 {
   "source_url": "https://chimolog.co/wp-content/price/",
   "data_url": "https://chimolog.co/wp-content/price/data/products.json",
-  "fetched_at": "2026-11-07T05:54:48.146660+00:00",
+  "fetched_at": "2026-11-07T12:56:20.223682+00:00",
   "site": {
     "title": "Amazonセールおすすめ商品一覧 | ちもろぐ",
-    "updated_at": "2026/11/07 12:06",
+    "updated_at": "2026/11/07 17:15",
     "show_points": true,
-    "total": 370,
+    "total": 372,
     "discount_count": 133,
     "themes": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "count": 370,
+  "count": 372,
   "discount_count": 133,
   "items": [
     {
@@ -2391,6 +2391,29 @@
       "image_url": "https://m.media-amazon.com/images/I/41xnP05b33L._SL500_.jpg"
     },
     {
+      "asin": "B0BY2BYBLM",
+      "title": "Hanye HE70 2TB （TLC NAND）",
+      "category": "SSD",
+      "themes": [
+        "better"
+      ],
+      "theme_labels": [
+        "かなりおすすめ"
+      ],
+      "price_yen": 49973,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 2498,
+      "points_rate_percent": 5.0,
+      "fetched_at": "2026/11/07 17:15",
+      "product_url": "https://www.amazon.co.jp/Hanye-PCIe-Gen4x4-%E3%83%92%E3%83%BC%E3%83%88%E3%82%B7%E3%83%B3%E3%82%AF%E6%90%AD%E8%BC%89-PS5%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88%E3%81%BF/dp/B0BY2BYBLM?pd_rd_w=gcDqa&content-id=amzn1.sym.289d93c5-bb87-47e6-b56c-76ff89f5333d&pf_rd_p=289d93c5-bb87-47e6-b56c-76ff89f5333d&pf_rd_r=T2755XWT2RXAJ4PDC8AH&pd_rd_wg=1V26K&pd_rd_r=500e3171-69e8-471e-8aec-7e5339abac2f&pd_rd_i=B0BY2BYBLM&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ce17d2a2112493aa249f7c2dcdf8b6ab&ref_=as_li_ss_tl",
+      "affiliate_url": "https://www.amazon.co.jp/Hanye-PCIe-Gen4x4-%E3%83%92%E3%83%BC%E3%83%88%E3%82%B7%E3%83%B3%E3%82%AF%E6%90%AD%E8%BC%89-PS5%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88%E3%81%BF/dp/B0BY2BYBLM?pd_rd_w=gcDqa&content-id=amzn1.sym.289d93c5-bb87-47e6-b56c-76ff89f5333d&pf_rd_p=289d93c5-bb87-47e6-b56c-76ff89f5333d&pf_rd_r=T2755XWT2RXAJ4PDC8AH&pd_rd_wg=1V26K&pd_rd_r=500e3171-69e8-471e-8aec-7e5339abac2f&pd_rd_i=B0BY2BYBLM&th=1&linkCode=ll2&tag=chimologaff7-22&linkId=ce17d2a2112493aa249f7c2dcdf8b6ab&ref_=as_li_ss_tl",
+      "review_url": "https://chimolog.co/hanye-he80/#Hanye_HE80%E3%82%92%E9%96%8B%E5%B0%81%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC",
+      "image_url": "https://m.media-amazon.com/images/I/51C39cSkuXL._SL500_.jpg"
+    },
+    {
       "asin": "B0BZCF96ZR",
       "title": "【完全メシ】キーマカレーメシ（6個）",
       "category": "ハイスペ食品",
@@ -2723,10 +2746,12 @@
       "title": "Hanye HE80-4TGHS 4TB（TLC NAND）",
       "category": "SSD",
       "themes": [
-        "better"
+        "better",
+        "ai"
       ],
       "theme_labels": [
-        "かなりおすすめ"
+        "かなりおすすめ",
+        "ローカルAI"
       ],
       "price_yen": 79893,
       "reference_high_yen": 99888,
@@ -6176,6 +6201,31 @@
       "affiliate_url": "https://www.amazon.co.jp/SAPPHIRE-Radeon-GAMING-%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%89-11350-03-20G/dp/B0FBGF4J9P?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1RRNNCT60GDD2&dib=eyJ2IjoiMSJ9.5Q7g2hw8Hjyhnk-s5NhDKkq334jbXQyw98TABtK3ZOtaOFCEgIXjJK43Iq69fMX1gCJ1Br-MFtF4c2t6buwu3X8qCbzVcMrWFI0iAjQra0Nm-DC2MdxxmYUUmSbQvzGHidhRBlW_nwyU1vGBMlrsaqyLlS_hf6wR1EnM5cYixNv3ZCRYjAV3hd-TJx3vj4MF4BJbqo5K2Xq-g2Nc6BZgaZrxnhk6WLwhXiZxrs1SFXrrTe6Pla_wOa_QEBmG4okamxsWlGimOcsHG7sv4T0njAvw52yDripIlfQ1K66vRmY.pnrSMtSRZlLs08KMw6ldoxawuQoWKFfmtLKZutfKErc&dib_tag=se&keywords=9060XT&qid=1782138132&sprefix=9060xt%2Caps%2C248&sr=8-7&ufe=app_do%3Aamzn1.fos.bf59e452-7c16-4eb0-8b6f-4f4edb3d8c50&linkCode=ll2&tag=chimologaff7-22&linkId=06dc2ff9594f1023fac4a71b78c2fdca&ref_=as_li_ss_tl",
       "review_url": "https://chimolog.co/rx-9060-xt-16gb/#perf",
       "image_url": "https://m.media-amazon.com/images/I/41OiNgaRR9L._SL500_.jpg"
+    },
+    {
+      "asin": "B0FBGY7LH9",
+      "title": "Hanye E500P 4TB （Gen5 TLC NAND）",
+      "category": "SSD",
+      "themes": [
+        "better",
+        "ai"
+      ],
+      "theme_labels": [
+        "かなりおすすめ",
+        "ローカルAI"
+      ],
+      "price_yen": 99980,
+      "reference_high_yen": null,
+      "discount_amount_yen": null,
+      "discount_rate_percent": null,
+      "is_discounted": false,
+      "points_total": 4998,
+      "points_rate_percent": 5.0,
+      "fetched_at": "2026/11/07 17:12",
+      "product_url": "https://www.amazon.co.jp/dp/B0FBGY7LH9?th=1&linkCode=ll2&tag=chimologaff7-22&linkId=f9cdc114a16a19ae6c62f6e051d280c6&ref_=as_li_ss_tl",
+      "affiliate_url": "https://www.amazon.co.jp/dp/B0FBGY7LH9?th=1&linkCode=ll2&tag=chimologaff7-22&linkId=f9cdc114a16a19ae6c62f6e051d280c6&ref_=as_li_ss_tl",
+      "review_url": null,
+      "image_url": "https://m.media-amazon.com/images/I/31cewAfM8RL._SL500_.jpg"
     },
     {
       "asin": "B0FBRNH7LD",
